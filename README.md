@@ -25,6 +25,8 @@ Just attach the script to a keyboard shortcut.
     mkdir -p ~/.local/share/rofi/rofi-shortcuts/
     cp "${srcdir}"/rofi-shortcuts/rofi-shortcuts.conf ~/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf
     cp "${srcdir}"/rofi-shortcuts/rofi-shortcuts.sh ~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh
+    
+**If you are not using i3**
     chmod u+x ~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh
     ln -sf ~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh ~/.local/bin/rofi-shortcuts
 
