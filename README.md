@@ -1,5 +1,6 @@
 # rofi-shortcuts
-The ultimate shortcuts cheatsheet.
+The ultimate shortcuts cheatsheet. To make changes you have to edit `rofi-shortcuts.conf`. This project documents https://github.com/Joaggi/scripts. It is activated in rofi using Windows + A and K. This project is for documentation only, it does not reflect the actual defined rofi shortcuts.
+
 
 Dependencies
 ==========
