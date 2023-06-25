@@ -18,6 +18,9 @@ Just attach the script to a keyboard shortcut.
 **If you install from git run**
 
     # Install
+    cd /opt/
+    git clone git@github.com:Joaggi/rofi-shortcuts.git
+    scrdir = /opt/
     mkdir -p ~/.config/rofi/rofi-shortcuts/
     mkdir -p ~/.local/share/rofi/rofi-shortcuts/
     cp "${srcdir}"/rofi-shortcuts/rofi-shortcuts.conf ~/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf
